@@ -46,9 +46,6 @@ export class MyPage {
   showAlert() {
     let alert = this.alertCtrl.create({
       title: 'New Friend!',
-      subTitle: 'Your friend, Obi wan Kenobi, just accepted your friend request!',
-      buttons: ['OK']
-    });
     alert.present();
   }
 }
@@ -65,6 +62,9 @@ export class MyPage {
       Demo Source
     </a>
   </nobr>
+      subTitle: 'Your friend, Obi wan Kenobi, just accepted your friend request!',
+      buttons: ['OK']
+    });
 </p>
 
 Prompts offer a way to input data or information.  Often times  Prompts will be used to ask the user for a password before moving forward in an application’s flow.
